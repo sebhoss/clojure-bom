@@ -25,6 +25,8 @@
   <artifactId>clojure-bom</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
+  <inceptionYear>2013</inceptionYear>
+  <url>${github.url}</url>
   <name>Clojure BOM</name>
   <description>Bill of material for all Clojure-based projects</description>
 
@@ -32,10 +34,10 @@
   <!--                                  SOURCE                                 -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <scm>
-    <connection>scm:git:git://github.com/sebhoss/clojure-bom.git</connection>
-    <developerConnection>scm:git:git@github.com:sebhoss/clojure-bom.git</developerConnection>
+    <connection>${scm.connection}</connection>
+    <developerConnection>${scm.developerConnection}</developerConnection>
     <tag>master</tag>
-    <url>http://github.com/sebhoss/clojure-bom</url>
+    <url>${scm.url}</url>
   </scm>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -49,6 +51,12 @@
     <version.com.github.sebhoss-bootstrap-clj>1.0.0</version.com.github.sebhoss-bootstrap-clj>
 
     <version.junit>4.11</version.junit>
+
+    <github.url>http://github.com/sebhoss/clojure-bom/</github.url>
+    <scm.connection>scm:git:git://github.com/sebhoss/clojure-bom.git</scm.connection>
+    <scm.developerConnection>scm:git:git@github.com:sebhoss/clojure-bom.git</scm.developerConnection>
+    <scm.url>http://github.com/sebhoss/clojure-bom</scm.url>
+    <issueManagement.url>http://github.com/sebhoss/clojure-bom/issues</issueManagement.url>
   </properties>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
