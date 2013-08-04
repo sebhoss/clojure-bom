@@ -1,0 +1,16 @@
+h1. Clojure BOM
+
+p. Bill of material for all Clojure-based projects. Use it as follows:
+
+bc.  <dependencies>
+    <dependency>
+      <groupId>com.github.sebhoss</groupId>
+      <artifactId>clojure-bom</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+  </dependencies>
+
+
+"!https://secure.travis-ci.org/sebhoss/clojure-bom.png!":http://travis-ci.org/sebhoss/clojure-bom
