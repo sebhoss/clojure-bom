@@ -29,6 +29,16 @@
   <description>Bill of material for all Clojure-based projects</description>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                                  SOURCE                                 -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <scm>
+    <connection>scm:git:git://github.com/sebhoss/clojure-bom.git</connection>
+    <developerConnection>scm:git:git@github.com:sebhoss/clojure-bom.git</developerConnection>
+    <tag>master</tag>
+    <url>http://github.com/sebhoss/clojure-bom</url>
+  </scm>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                                PROPERTIES                               -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <properties>
