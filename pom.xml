@@ -16,7 +16,7 @@
   <parent>
     <groupId>com.github.sebhoss</groupId>
     <artifactId>superpom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -26,7 +26,7 @@
   <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <inceptionYear>2013</inceptionYear>
-  <url>${github.url}</url>
+  <url>http://github.com/sebhoss/clojure-bom</url>
   <name>Clojure BOM</name>
   <description>Bill of material for all Clojure-based projects</description>
 
@@ -34,30 +34,11 @@
   <!--                                  SOURCE                                 -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <scm>
-    <connection>${scm.connection}</connection>
-    <developerConnection>${scm.developerConnection}</developerConnection>
+    <connection>scm:git:git://github.com/sebhoss/clojure-bom.git</connection>
+    <developerConnection>scm:git:git@github.com:sebhoss/clojure-bom.git</developerConnection>
     <tag>master</tag>
-    <url>${scm.url}</url>
+    <url>${project.url}</url>
   </scm>
-
-  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <!--                                PROPERTIES                               -->
-  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <properties>
-    <version.clojure>1.5.1</version.clojure>
-
-    <version.com.github.sebhoss-def-clj>1.0.0</version.com.github.sebhoss-def-clj>
-    <version.com.github.sebhoss-math-clj>1.0.0</version.com.github.sebhoss-math-clj>
-    <version.com.github.sebhoss-bootstrap-clj>1.0.0</version.com.github.sebhoss-bootstrap-clj>
-
-    <version.junit>4.11</version.junit>
-
-    <github.url>http://github.com/sebhoss/clojure-bom/</github.url>
-    <scm.connection>scm:git:git://github.com/sebhoss/clojure-bom.git</scm.connection>
-    <scm.developerConnection>scm:git:git@github.com:sebhoss/clojure-bom.git</scm.developerConnection>
-    <scm.url>http://github.com/sebhoss/clojure-bom</scm.url>
-    <issueManagement.url>http://github.com/sebhoss/clojure-bom/issues</issueManagement.url>
-  </properties>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                               DEPENDENCIES                              -->
@@ -67,27 +48,27 @@
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>clojure</artifactId>
-        <version>${version.clojure}</version>
+        <version>1.5.1</version>
       </dependency>
       <dependency>
         <groupId>com.github.sebhoss</groupId>
         <artifactId>def-clj</artifactId>
-        <version>${version.com.github.sebhoss-def-clj}</version>
+        <version>1.0.0</version>
       </dependency>
       <dependency>
         <groupId>com.github.sebhoss</groupId>
         <artifactId>math-clj</artifactId>
-        <version>${version.com.github.sebhoss-math-clj}</version>
+        <version>1.0.0</version>
       </dependency>
       <dependency>
         <groupId>com.github.sebhoss</groupId>
         <artifactId>bootstrap-clj</artifactId>
-        <version>${version.com.github.sebhoss-bootstrap-clj}</version>
+        <version>1.0.0</version>
       </dependency>
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>${version.junit}</version>
+        <version>4.11</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
