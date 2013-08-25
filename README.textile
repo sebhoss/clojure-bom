@@ -2,7 +2,8 @@ h1. Clojure BOM "!https://secure.travis-ci.org/sebhoss/clojure-bom.png!":http://
 
 p. Bill of material for all Clojure-based projects. Use it as follows:
 
-bc.  <dependencies>
+bc.  <dependencyManagement>
+  <dependencies>
     <dependency>
       <groupId>com.github.sebhoss</groupId>
       <artifactId>clojure-bom</artifactId>
@@ -11,6 +12,7 @@ bc.  <dependencies>
       <scope>import</scope>
     </dependency>
   </dependencies>
+</dependencyManagement>
 
 h2. License
 
