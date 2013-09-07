@@ -7,7 +7,7 @@ bc.  <dependencyManagement>
     <dependency>
       <groupId>com.github.sebhoss</groupId>
       <artifactId>clojure-bom</artifactId>
-      <version>1.0.1</version>
+      <version>${version.clojure-bom}</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
